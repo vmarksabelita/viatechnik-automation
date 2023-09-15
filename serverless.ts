@@ -3,7 +3,7 @@ import type { AWS } from '@serverless/typescript'
 import jira from '@functions/jira'
 
 const serverlessConfiguration: AWS = {
-  service: 'serverless-typescript-boilerplate',
+  service: 'serverless-automation',
   frameworkVersion: '3',
   plugins: ['serverless-esbuild', 'serverless-offline'],
   provider: {

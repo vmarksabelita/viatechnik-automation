@@ -1,11 +1,12 @@
 {
-  "name": "serverless-typescript-boilerplate",
+  "name": "serverless-automation",
   "version": "1.0.0",
-  "description": "Serverless aws-nodejs-typescript template",
+  "description": "Serverless vtk automation",
   "main": "serverless.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serverless offline --stage production"
+    "start": "serverless offline --stage production",
+    "deploy:production": "serverless deploy --stage production"
   },
   "engines": {
     "node": ">=14.15.0"
